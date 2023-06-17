@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>How to Build Length Conventer using JavaScript</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='indexx.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container">
+      <div class="center-width">
+        <h2>Length Conventer</h2>
+        <p>Type value in any of the fields to convert between Length Measurement :</p>
+      </div>
+      <div class="length-conventer">
+        <div class="fields">
+            <div class="field">
+                <label>CM:</label>
+                    <input type="number" placeholder="cm" id="inputcm" oninput="lengthConventer(this.id, this.value)" onchange="lengthConventer(this.id, this.value)">
+            </div>
+            <div class="field">
+            <label>Inches:</label>
+                <input type="number" placeholder="Inches" id="inputInches" oninput="lengthConventer(this.id, this.value)" onchange="lengthConventer(this.id, this.value)">
+            </div>
+            <div class="field">
+                <label>Feet:</label>
+                    <input type="number" placeholder="Feet" id="inputFeet" oninput="lengthConventer(this.id, this.value)" onchange="lengthConventer(this.id, this.value)">
+            </div>
+            <div class="field">
+                <label>Meters:</label>
+                    <input type="number" placeholder="Meters" id="inputMeters" oninput="lengthConventer(this.id, this.value)" onchange="lengthConventer(this.id, this.value)">
+            </div>
+            <div class="field">
+                <label>Kilometers:</label>
+                    <input type="number" placeholder="Kilometers" id="inputKilometers" oninput="lengthConventer(this.id, this.value)" onchange="lengthConventer(this.id, this.value)">
+            </div>
+            <div class="field">
+                <label>Miles:</label>
+                    <input type="number" placeholder="Miles" id="inputMiles" oninput="lengthConventer(this.id, this.value)" onchange="lengthConventer(this.id, this.value)">
+            </div>
+            <div class="field">
+                <label>Yards:</label>
+                    <input type="number" placeholder="Yards" id="inputYards" oninput="lengthConventer(this.id, this.value)" onchange="lengthConventer(this.id, this.value)">
+            </div>
+        </div>
+      </div>  
+    </div>
+    
+</body>
+
+<script src="script.js"></script>
+</html>
